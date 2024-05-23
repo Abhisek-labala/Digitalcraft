@@ -1,0 +1,241 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,500,700);
+
+.carousel-inner,.item {
+  height: 500px;
+}
+
+/* h3 {
+  text-align: center;
+} */
+
+.navbar-brand img {
+  opacity: 50%;
+}
+
+.img-fluid {
+  height: 350px;
+  width: 650px;
+  border-radius: 5%;
+}
+
+.btn-light,
+.btn-secondary {
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 1rem;
+}
+
+.btn-primary {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand {
+  color: #ff6219;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.btn-success {
+  border-radius: 50px;
+}
+
+input {
+  height: 40px;
+  width: 400px;
+  /* display: inline; */
+  /* justify-content:; */
+}
+
+.services {
+  margin-left:40px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  height: 520PX;
+}
+
+body {
+  /* background: linear-gradient(to right, #101c81, #7031cf); */
+  background-color: #231834;
+  min-height: 100vh;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+#home
+{
+  height: 700PX;
+}
+
+.home-testimonial {
+  /* background-color: #231834; */
+  height: 520px
+}
+
+.home-testimonial-bottom {
+  /* background-color: #f8f8f8; */
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 130px;
+  top: 190px
+}
+
+.home-testimonial h3 {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+.home-testimonial h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px
+}
+
+.color-grey-3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.testimonial-inner img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none
+}
+
+.link-name {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.card p {
+  margin-bottom: 15px;
+}
+.modal{
+  color: black;
+}
+
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+.team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin: 10px 0;
+}
+
+.team-member p {
+  color: #777;
+  margin: 0;
+}

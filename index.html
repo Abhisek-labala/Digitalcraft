@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DigitalCraft Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="images/Digital (1).png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                DigitalCraft Studio
+            </a>
+            <div class="collapse navbar-collapse ml-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button id="login" class="btn btn-light"><a class="nav-link" href="signin.html">Sign In</a></button>
+                <button id="signup" class="btn btn-secondary"><a class="nav-link" href="signup.html">SignUp</a> </button>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="Home">
+            <div id="carouselgroup" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselgroup" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselgroup" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselgroup" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/carusel3.jpg" class=" w-100" alt="slide1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/crausel2.jpg" class=" w-100 h-5" alt="slide2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/crausel1.jpg" class=" w-100 h-5" alt="slide3">
+                    </div>
+                    <div class="carousel-caption">
+                        <h1 class="w3-center text-light"><b>Welcome to DigitalCraft studio</b></h1>
+                        <p class="text-alert">Where Innovation Meets Artistry!</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselgroup"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselgroup"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="ds-about" id="about">
+        <div class="ds-about__content container-fluid">
+            <article class="rowss">
+                <div class="row">
+                    <h1 class=" mt-3"><b>About us</b></h1>
+                    <div class="col-md-6 my-5">
+                        <h1 class="section-link "><b>Who we are</b></h1>
+                        <p class="lead">Welcome to DigitalCraft – Where Innovation Meets Artistry!</p>
+                        <p class="lead">At DigitalCraft, we're passionate about blending cutting-edge technology
+                            with
+                            timeless craftsmanship to
+                            bring your digital visions to life. Whether you're an entrepreneur, a creative
+                            professional,
+                            or an
+                            enthusiast looking to explore the digital realm, you've come to the right place.
+                            Our platform offers a diverse array of services and resources tailored to
+                            empower your digital journey.</p>
+                    </div>
+                    <div class="col-md-6 my-5 ">
+                        <img src="images/ourmission.jpg" class="img-fluid">
+                    </div>
+            </article>
+    </section>
+    <section class="services mt-0" id="service">
+        <div class="container-fluid">
+            <h1 class="text-center"><b>Our Services</b></h1>
+            <article class="rowss py-2 ">
+                <div class="row ">
+                    <div class="card m-3 mt-3 mb-3" style="width: 17rem;">
+                        <img src="images/service1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Digital Design and Branding</b></h5>
+                            <p class="card-text">Elevate your brand with captivating visual identities, user-friendly
+                                interfaces....</p>
+                            <a href="https://www.brunel.ac.uk/study/postgraduate/Digital-Design-and-Branding-MSc"
+                                class="btn btn-success">Known More...</a>
+                        </div>
+                    </div>
+
+                    <div class="card m-3 mt-3 mb-3" style="width: 17rem;">
+                        <img src="images/service4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Consultation and Training</b></h5>
+                            <p class="card-text">Gain insights from industry experts, refine your skills, and stay
+                                ahead...</p>
+                            <a href="https://www.communitybusiness.org/training-consulting"
+                                class="btn btn-success">Known More...</a>
+                        </div>
+                    </div>
+
+                    <div class="card m-3 mt-3 mb-3" style="width: 17rem;">
+                        <img src="images/service2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Custom Software Development</b></h5>
+                            <p class="card-text">From sleek mobile apps to robust web solutions, our team of expert
+                                developers...</p>
+                            <a href="https://www.businessnewsdaily.com/5175-custom-software-development.html"
+                                class="btn btn-success">Known More...</a>
+                        </div>
+                    </div>
+
+                    <div class="card m-3 mt-3 mb-3" style="width: 17rem;">
+                        <img src="images/service3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Digital Marketing Strategies</b></h5>
+                            <p class="card-text">Amplify your online presence and reach your target audience with
+                                data-driven...</p>
+                            <a href="https://business.adobe.com/blog/basics/digital-marketing-strategy"
+                                class="btn btn-success">Known More...</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <!-- testimonials -->
+    <section class="home-testimonial" id="testimonials">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center testimonial-pos">
+                <div class="col-md-12 pt-4 d-flex justify-content-center">
+                    <h1><B>Testimonials</B></h1>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h2>Explore the Clients experience</h2>
+                </div>
+            </div>
+            <section class="home-testimonial-bottom">
+                <div class="container testimonial-inner">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;DigitalCraft's expertise and
+                                        guidance were invaluable in helping us navigate the complexities of our project.
+                                        Their collaborative approach and commitment to excellence ensured that our goals
+                                        were not only met but surpassed. We couldn't be happier with the
+                                        outcome!.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2">
+                                        <img class="tm-people" src="images/testimonial1.jpg" alt="">
+                                    </div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <div class="link-position d-flex justify-content-center">COO of DEF Innovations
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Working with DigitalCraft was
+                                        a breath of fresh air. Their team's passion for their craft, coupled with their
+                                        technical expertise, made the entire process enjoyable and stress-free. We're
+                                        delighted with the final product and grateful for their contributions to our
+                                        success!.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2">
+                                        <img class="tm-people" src="images/testimonial3.jpg" alt="">
+                                    </div>
+                                    <div class="link-name d-flex justify-content-center">Emily Roberts</div>
+                                    <div class="link-position d-flex justify-content-center">Founder of EFG Designs
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;DigitalCraft's commitment to
+                                        excellence is unmatched. Their team's ability to understand our objectives and
+                                        translate them into tangible results was impressive. We're incredibly satisfied
+                                        with their work and look forward to continuing our partnership in the
+                                        future!.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2">
+                                        <img class="tm-people" src="images/testimonial4.jpg" alt="">
+                                    </div>
+                                    <div class="link-name d-flex justify-content-center">Mark Johnson</div>
+                                    <div class="link-position d-flex justify-content-center">CEO of XYZ Tech Solutions
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    </section>
+
+    <!-- team -->
+    <section id="team" class="py-2 px-2 my-2 mx-2">
+        <h1 class="text-center py-2"><b>Our Team</b></h1>
+        <div class="row d-flex">
+            <div class="col-md-12 justify-content-center pt-4 d-flex r">
+                <section class="team-section">
+                    <div class="team-member">
+                        <img src="images/teqam1.jpg" alt="Team Member 1">
+                        <h3>Priya Patel</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team2.jpg" alt="Team Member 2">
+                        <h3>Jane Smith</h3>
+                        <p>Marketing Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team3.jpg" alt="Team Member 2">
+                        <h3>Amelia smith</h3>
+                        <p>Team Lead</p>
+                    </div>
+                </div>
+                </div>
+
+    </section>
+    <!-- gallery -->
+    
+<section id="gallery" class="py-2 px-2 my-2 mx-2">
+    <h1 class="text-center"><b>Our Gallery</b></h1>
+    <div class="row d-flex">
+        <div class="col-md-12 justify-content-center pt-4 d-flex r">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/IMAGE1.jpg" alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/IMAGE2.jpg" alt="Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/IMAGE3.jpg" alt="Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/IMAGE4.jpg" alt="Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/IMAGE5.jpg" alt="Image 3">
+                </div>
+                
+            </div>
+            </div>
+            </div>
+  
+  </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="row d-flex">
+            <div class="col-md-12 justify-content-center pt-4 d-flex r">
+                <h1><B>Contact Us</B></h1>
+            </div>
+            <div class="col-6  offset-lg-1 mb-3">
+                <div class="col-md-12 d-flex justify-content-left">
+                    <ul class="list-unstyled small"><br>
+                        <h3>Head Office Address</h3>
+                        <li>Flot No - 145, Pragati vihar,Damana,Bhubaneswar,odisha,751031</li><br>
+                        <button claas="text-left" type="button" class="btn btn-primary" id="btn1" data-bs-toggle="modal"
+                            data-bs-target="#contactmodal">
+                            Contact Us <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="contactmodal" tabindex="-1" aria-labelledby="contactmodalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="contactmodalLabel">Contact Us</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="Phone" class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="phone">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="textarea" class="form-label">Enter your Masasge</label>
+                                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                                    </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success" onclick="sendmassage()">Send
+                                    Masasge</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+
+    <!-- Footer section -->
+    <footer class="bd-footer py-4 py-md-5 mr-5 mt-0 bg-dark ">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                        href="index.html" aria-label="Bootstrap">
+                        <img src="images/Digital (1).png" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94"
+                            role="img">
+                        <title>DigitalCraft</title>
+                        <span class="fs-5 text-light">DigitalCraft Studio</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Designed and built with all the love in the world by the <a
+                                href="team.html">DigitalCraft Team</a> with the help of <a
+                                href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+                        <li class="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
+                                target="_blank" rel="license noopener">MIT</a>, docs <a
+                                href="https://creativecommons.org/licenses/by/3.0/" target="_blank"
+                                rel="license noopener">CC BY 3.0</a>.</li </ul>
+                </div>
+
+                <div class="col-6 col-lg-2 offset-lg-1 ml-5 mr-5">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="#about">About</a></li>
+                        <li class="mb-2"><a href="#service">Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 col-lg-2 offset-lg-1 ml-5  mr-5">
+                    <ul class="list-unstyled">
+                        <h5>Links</h5>
+                        <li class="mb-2"><a href="#testimonials">Testimonials</a></li>
+                        <li class="mb-2"><a href="#team">Team</a></li>
+                        <li class="mb-2"><a href="#gallery">Gallery</a></li>
+                        <li class="mb-2"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="container-fluid d-inline-flex"> <span class="text-center">©copyright 2024 DigitalCraft | All
+                        right
+                        reserved.</span>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-light" href="https://twitter.com/i/flow/login"><svg class="bi"
+                                    width="24" height="24">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="text-light" href="https://www.instagram.com/"><svg class="bi"
+                                    width="24" height="24">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="text-light" href="https://www.facebook.com/"><svg class="bi"
+                                    width="24" height="24">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="text-light" href="https://in.linkedin.com/"><svg class="bi"
+                                    width="24" height="24">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </svg></a></li>
+                    </ul>
+                </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
